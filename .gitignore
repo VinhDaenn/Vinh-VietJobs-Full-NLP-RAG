@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.joblib
+outputs/
+chroma_db/
+*.sqlite3
+.DS_Store
+# Large raw dataset is retrieved from Hugging Face in the notebook.
+data/*.csv
+data/*.gz
+!data/*template.csv
